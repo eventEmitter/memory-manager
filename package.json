@@ -1,7 +1,7 @@
 {
       "name"                        : "memory-manager"
     , "description"                 : "tracks the memory of the current node process, checks if its save to allocate more memory"
-    , "version"                     : "0.1.0"
+    , "version"                     : "0.1.1"
     , "homepage"                    : "https://github.com/eventEmitter/memory-manager"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
     , "license"                     : "MIT"
@@ -22,7 +22,7 @@
         , "ee-event-emitter"        : "0.3.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "2.x"
     }
     , "optionalDependencies": {}
     , "keywords"                    : ["memory"]

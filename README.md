@@ -9,6 +9,7 @@ Used to check if some cache implementations can store more items or if they shou
 [![Travis](https://img.shields.io/travis/eventEmitter/memory-manager.svg?style=flat-square)](https://travis-ci.org/eventEmitter/memory-manager)
 [![node](https://img.shields.io/node/v/memory-manager.svg?style=flat-square)](https://nodejs.org/)
 
+You may start node using the `--max-old-space-size=4000` parameter in order to get a bigger heap (mb). Check `node --v8-options | grep size` for the details on this paramter.
 
 ## API
 
