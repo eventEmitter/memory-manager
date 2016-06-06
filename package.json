@@ -1,32 +1,37 @@
 {
-      "name"                        : "memory-manager"
-    , "description"                 : "tracks the memory of the current node process, checks if its save to allocate more memory"
-    , "version"                     : "0.1.1"
-    , "homepage"                    : "https://github.com/eventEmitter/memory-manager"
-    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
-    , "license"                     : "MIT"
-    , "repository": {
-          "url"                     : "https://github.com/eventEmitter/memory-manager.git"
-        , "type"                    : "git"
-    }
-    , "engines": {
-        "node"                      : ">=v4.1"
-    }
-    , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/memory-manager/issues"
-    }
-    , "dependencies": {
-          "ee-class"                : "1.x"
-        , "ee-types"                : "1.x"
-        , "ee-log"                  : "0.3.x"
-        , "ee-event-emitter"        : "0.3.x"
-    }
-    , "devDependencies": {
-          "mocha"                   : "2.x"
-    }
-    , "optionalDependencies": {}
-    , "keywords"                    : ["memory"]
-    , "scripts": {
-        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
-    }
+  "name": "memory-manager",
+  "description": "tracks the memory of the current node process, checks if its save to allocate more memory",
+  "version": "0.1.1",
+  "homepage": "https://github.com/eventEmitter/memory-manager",
+  "author": "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/eventEmitter/memory-manager.git",
+    "type": "git"
+  },
+  "engines": {
+    "node": ">=v4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/eventEmitter/memory-manager/issues"
+  },
+  "dependencies": {
+    "ee-class": "1.x",
+    "ee-types": "1.x",
+    "ee-log": "0.3.x",
+    "ee-event-emitter": "0.3.x"
+  },
+  "devDependencies": {
+    "mocha": "2.x"
+  },
+  "keywords": [
+    "memory"
+  ],
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  }
 }
