@@ -1,5 +1,7 @@
 # memory-manager
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/memory-manager.svg)](https://greenkeeper.io/)
+
 Tracks the memory of the current node process, checks if its save to allocate more memory.
 
 Used to check if some cache implementations can store more items or if they should start rejecting them.
